@@ -1,0 +1,70 @@
+  478  mkdir NodeJS
+  479  cd ..
+  480  cd Server/
+  481  mkdir Docker
+  482  cd ..
+  483  ls
+  484  cd Scripts/
+  485  cd NodeJS/
+  486  touch app.js
+  487  ls
+  488  cd ..
+  489  cd ..
+  490  cd ..
+  491  ls
+  492  cd Frontend/
+  493  ls
+  494  mkdir CSS
+  495  mkdir HTML
+  496  mkdir JavaScript
+  497  ls
+  498  cd CSS/
+  499  touch style.css
+  500  ls
+  501  cd ..
+  502  cd HTML/
+  503  touch footer.html header.html index.html
+  504  ls
+  505  cd ..
+  506  cd JavaScript/
+  507  touch script.js
+  508  ls
+  509  cd ..
+  510  cd ..
+  511  ls RESTfulAPI/
+  512  cd RESTfulAPI/
+  513  touch api.js
+  514  ls
+  515  cd ..
+  516  ls
+  517  cd Frontend/HTML/
+  518  zip HTML footer.html header.html index.html 
+  519  ls
+  520  mv HTML.zip /Users/alejandra.arriola/Documents/Git/ale-cli-exercise/AwesomeProduct
+  521  ls
+  522  cd ..
+  523  cd ..
+  524  ls
+  525  cd Frontend/HTML/
+  526  rm header.html 
+  527  rm footer.html 
+  528  ls
+  529  cd ..
+  530  cd ..
+  531  ls
+  532  rmdir Assets
+  533  ls
+  534  cd Frontend/JavaScript/
+  535  ls
+  536  cp script.js /Users/alejandra.arriola/Documents/Git/ale-cli-exercise/AwesomeProduct/Backend/Scripts/NodeJS
+  537  ls
+  538  cd ..
+  539  cd ..
+  540  cd Backend/Scripts/NodeJS/
+  541  ls
+  542  echo Mission Completed!
+  543  cd ..
+  544  cd ..
+  545  cd ..
+  546  ls
+  547  history 70 >> history.txt
